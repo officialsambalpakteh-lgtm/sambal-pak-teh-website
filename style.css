@@ -98,3 +98,24 @@ footer {
     margin-bottom:20px;
 
 }
+.product-img {
+
+    width:250px;
+    height:250px;
+    object-fit:contain;
+    margin-bottom:20px;
+
+}
+
+
+.box button {
+
+    margin-top:20px;
+    padding:12px 25px;
+    background:#8b0000;
+    color:white;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+
+}

@@ -14,7 +14,7 @@ Website ini dibina untuk tujuan pemasaran online, memperkenalkan produk sambal h
 - Saiz: 200ml
 - Harga: RM16.90
 - Kategori: Sambal Homemade Premium
-- Tempahan: WhatsApp
+- Tempahan: 
 
 ## Contact
 
@@ -22,10 +22,6 @@ WhatsApp:
 
 
 Link:
-
-
-
----
 
 # 📂 Struktur Projek
 

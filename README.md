@@ -19,11 +19,11 @@ Website ini dibina untuk tujuan pemasaran online, memperkenalkan produk sambal h
 ## Contact
 
 WhatsApp:
-0132981929
+
 
 Link:
 
-https://wa.me/60132981929
+
 
 ---
 

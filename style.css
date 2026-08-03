@@ -90,3 +90,11 @@ footer {
     padding:20px;
 
 }
+.logo {
+
+    width:150px;
+    height:150px;
+    object-fit:contain;
+    margin-bottom:20px;
+
+}

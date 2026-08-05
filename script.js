@@ -1,27 +1,47 @@
-/* =========================
+/* =====================================
    SAMBAL PETAI PAK TEH
-   PREMIUM SCRIPT
-========================= */
+   WEBSITE SCRIPT
+===================================== */
 
 
 
-// HEADER EFFECT
-
-const header = document.querySelector(".header");
-
-
-window.addEventListener("scroll", function(){
+// ===============================
+// MOBILE MENU
+// ===============================
 
 
-    if(window.scrollY > 40){
+const menuBtn = document.querySelector(".menu-btn");
 
-        header.style.boxShadow =
-        "0 10px 30px rgba(0,0,0,0.15)";
+const navLinks = document.querySelector(".nav-links");
 
-    }else{
 
-        header.style.boxShadow =
-        "none";
+
+menuBtn.addEventListener("click", () => {
+
+
+    if(navLinks.style.display === "flex"){
+
+        navLinks.style.display = "none";
+
+    }
+
+    else{
+
+        navLinks.style.display = "flex";
+
+        navLinks.style.flexDirection = "column";
+
+        navLinks.style.position = "absolute";
+
+        navLinks.style.top = "80px";
+
+        navLinks.style.right = "20px";
+
+        navLinks.style.background = "white";
+
+        navLinks.style.padding = "20px";
+
+        navLinks.style.borderRadius = "15px";
 
     }
 
@@ -34,57 +54,113 @@ window.addEventListener("scroll", function(){
 
 
 
-// SCROLL ANIMATION
+// ===============================
+// AUTO YEAR FOOTER
+// ===============================
 
 
-const animationItems = document.querySelectorAll(
-".story-box, .product-card, .quality-card, .buy-grid div"
-);
+const footerYear = document.querySelector("footer p");
+
+
+const currentYear = new Date().getFullYear();
+
+
+footerYear.innerHTML =
+
+`© ${currentYear} Sambal Petai Pak Teh.
+Semua Hak Terpelihara.`;
 
 
 
-const observer = new IntersectionObserver(
-(entries)=>{
 
 
-entries.forEach(item=>{
 
 
-if(item.isIntersecting){
 
-item.target.style.opacity="1";
+// ===============================
+// SMOOTH SCROLL
+// ===============================
 
-item.target.style.transform="translateY(0)";
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 
-}
+    anchor.addEventListener("click", function(e){
+
+
+        e.preventDefault();
+
+
+        document.querySelector(this.getAttribute("href"))
+        .scrollIntoView({
+
+            behavior:"smooth"
+
+        });
+
+
+    });
 
 
 });
 
 
-},
-{
+
+
+
+
+
+
+// ===============================
+// SIMPLE FADE ANIMATION
+// ===============================
+
+
+const sections = document.querySelectorAll("section");
+
+
+
+const observer = new IntersectionObserver((entries)=>{
+
+
+entries.forEach(entry=>{
+
+
+    if(entry.isIntersecting){
+
+
+        entry.target.style.opacity = "1";
+
+        entry.target.style.transform = "translateY(0)";
+
+
+    }
+
+
+});
+
+
+},{
+
 threshold:0.15
-}
 
-);
-
+});
 
 
 
 
-animationItems.forEach(item=>{
+
+sections.forEach(section=>{
 
 
-item.style.opacity="0";
+    section.style.opacity="0";
 
-item.style.transform="translateY(40px)";
+    section.style.transform="translateY(30px)";
 
-item.style.transition="all .8s ease";
+    section.style.transition="0.8s";
 
 
-observer.observe(item);
+    observer.observe(section);
 
 
 });
@@ -96,30 +172,38 @@ observer.observe(item);
 
 
 
-// FOOTER YEAR AUTO UPDATE
+// ===============================
+// BUTTON WHATSAPP
+// ===============================
 
 
-const year = new Date().getFullYear();
+// Tukar nombor WhatsApp bila dah ada
 
 
-const footerText =
-document.querySelector("footer p:last-child");
+const whatsappNumber = "601XXXXXXXXX";
+
+
+const whatsappMessage = 
+"Saya berminat dengan Sambal Petai Pak Teh 200ml";
 
 
 
-if(footerText){
+document.querySelectorAll(".btn").forEach(button=>{
 
-footerText.innerHTML =
-"© " + year + " Sambal Petai Pak Teh";
+
+if(button.innerText.includes("WhatsApp")){
+
+
+button.href =
+
+`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+
+
+button.target="_blank";
+
 
 }
 
 
 
-
-
-
-
-console.log(
-"Sambal Petai Pak Teh Premium Website Ready"
-);
+});

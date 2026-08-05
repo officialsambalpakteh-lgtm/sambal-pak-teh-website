@@ -1,48 +1,34 @@
-# 🌶️ Sambal Petai Pak Teh Website
+# 🌶️ Sambal Petai Pak Teh
+## Premium Homemade Sambal Website
 
 
-## Tentang Projek
+---
 
-Website rasmi untuk branding produk:
+## 📌 Tentang Projek
+
+Website rasmi untuk branding:
 
 **Sambal Petai Pak Teh**
 
-Konsep utama:
+Konsep website:
 
-> Sekali Rasa, Pasti Nak Lagi
+- Premium Food Brand
+- Homemade Product
+- Limited Stock
+- Easy Customer Ordering
 
 
-Website ini dibina sebagai landing page untuk:
+Website dibina untuk:
 
-- Memperkenalkan produk
-- Branding bisnes
-- Paparan produk
-- Hubungan pelanggan melalui WhatsApp
-
+✅ Memperkenalkan produk  
+✅ Membina kepercayaan pelanggan  
+✅ Memudahkan tempahan WhatsApp  
+✅ Menampilkan imej premium jenama  
 
 
 ---
 
 # 📁 Struktur Fail
-
-
-Sambal-Pak-Teh
-
-│
-
-├── index.html
-
-├── style.css
-
-├── script.js
-
-├── README.md
-
-│
-
-├── logo.png
-
-└── sambal-pak-teh.png
 
 
 
@@ -51,8 +37,13 @@ Sambal-Pak-Teh
 # 🖥️ Cara Buka Website
 
 
-3. Website akan dibuka menggunakan browser.
+1. Buka folder projek
 
+2. Klik dua kali:
+
+
+
+3. Website akan dibuka menggunakan browser.
 
 
 Browser disyorkan:
@@ -67,17 +58,17 @@ Browser disyorkan:
 # 🖼️ Tukar Logo
 
 
-Fail logo:
+Fail:
 
 
 
-Jika mahu tukar logo:
+Untuk tukar logo:
 
 1. Padam logo lama
 
-2. Masukkan logo baru
+2. Letak logo baru
 
-3. Pastikan nama kekal:
+3. Pastikan nama fail kekal:
 
 
 
@@ -87,21 +78,22 @@ Jika mahu tukar logo:
 # 🌶️ Tukar Gambar Produk
 
 
-Fail produk:
+Fail:
 
 
 
-Gambar ini digunakan untuk:
+Digunakan untuk:
 
-- Hero utama
-- Produk
-- Paparan website
-
+- Hero section
+- Product showcase
 
 
-Jika tukar gambar:
+Untuk tukar:
 
-Pastikan nama kekal:
+1. Gantikan gambar lama
+
+2. Gunakan nama sama:
+
 
 
 
@@ -114,15 +106,22 @@ Buka:
 
 
 
-Cari bahagian produk.
+Cari:
 
-Tukar harga mengikut harga sebenar.
+
+
+Tukar kepada harga sebenar produk.
+
+
+
+Contoh:
+
 
 
 
 ---
 
-# 📱 Tukar Nombor WhatsApp
+# 📱 Tukar WhatsApp
 
 
 Dalam:
@@ -140,12 +139,76 @@ Tukar kepada nombor WhatsApp sebenar.
 Format:
 
 
+
+---
+
+# 🕘 Waktu Operasi
+
+
+Sekarang:
+
+
+Boleh ubah dalam:
+
+
+
+---
+
+# 🎨 Ubah Design Website
+
+
+Fail utama:
+
+
+## style.css
+
+
 Digunakan untuk:
 
 - Warna
-- Saiz tulisan
-- Susunan halaman
-- Design mobile
+- Font
+- Layout
+- Animasi
+- Responsive mobile
+
+
+
+Tema warna:
+
+Maroon Premium:
+
+
+
+---
+
+# 🎨 Ubah Design Website
+
+
+Fail utama:
+
+
+## style.css
+
+
+Digunakan untuk:
+
+- Warna
+- Font
+- Layout
+- Animasi
+- Responsive mobile
+
+
+
+Tema warna:
+
+Maroon Premium:
+
+
+Gold:
+
+
+Cream:
 
 
 
@@ -160,24 +223,21 @@ Fail:
 
 Digunakan untuk:
 
-- Fungsi tambahan website
-- Animation
-- Interaksi pengguna
+- Scroll animation
+- Header effect
+- Website interaction
 
 
 
 ---
 
-# 🚀 Upload Online
+# 🚀 Publish Website
 
 
-Platform percuma yang boleh digunakan:
+Website boleh diterbitkan menggunakan:
 
 
 ## GitHub Pages
-
-Sesuai untuk website static.
-
 
 Langkah:
 
@@ -185,7 +245,10 @@ Langkah:
 
 2. Upload semua fail
 
-3. Aktifkan GitHub Pages
+3. Aktifkan Pages
+
+
+Fail diperlukan:
 
 
 
@@ -196,13 +259,13 @@ Langkah:
 
 ## Website
 
-☑ Logo betul
+☑ Semua gambar keluar
 
-☑ Gambar produk betul
+☑ Tiada link rosak
 
-☑ Semua link berfungsi
+☑ Paparan telefon cantik
 
-☑ Paparan telefon ok
+☑ Button WhatsApp berfungsi
 
 
 ## Produk
@@ -211,20 +274,24 @@ Langkah:
 
 ☑ Harga betul
 
-☑ Stok tersedia
+☑ Gambar produk terkini
+
+☑ Maklumat stok betul
 
 
-## Contact
+## Branding
 
-☑ WhatsApp betul
+☑ Logo betul
 
-☑ Waktu operasi betul
+☑ Warna brand konsisten
+
+☑ Ayat pemasaran kemas
 
 
 
 ---
 
-# Maklumat Operasi
+# 📌 Maklumat Brand
 
 
 Nama:
@@ -232,19 +299,22 @@ Nama:
 Sambal Petai Pak Teh
 
 
-Waktu Operasi:
+Konsep:
 
-Isnin - Khamis
+Premium Homemade Sambal
 
-9.00 pagi - 5.00 petang
+
+Status:
+
+Limited Stock Product
 
 
 
 ---
 
-© 2026 Sambal Petai Pak Teh
-
-1. Buka folder projek
-
-2. Klik dua kali:
-
+© Sambal Petai Pak Teh✅ index.html
+✅ style.css
+✅ script.js
+✅ README.md
+✅ logo.png
+✅ sambal-pak-teh.png

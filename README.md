@@ -1,320 +1,166 @@
-# 🌶️ Sambal Petai Pak Teh
+# Sambal Petai Pak Teh
 ## Premium Homemade Sambal Website
 
 
----
+## Tentang Projek
 
-## 📌 Tentang Projek
+Website rasmi untuk jenama Sambal Petai Pak Teh.
 
-Website rasmi untuk branding:
-
-**Sambal Petai Pak Teh**
-
-Konsep website:
-
-- Premium Food Brand
-- Homemade Product
-- Limited Stock
-- Easy Customer Ordering
-
-
-Website dibina untuk:
-
-✅ Memperkenalkan produk  
-✅ Membina kepercayaan pelanggan  
-✅ Memudahkan tempahan WhatsApp  
-✅ Menampilkan imej premium jenama  
-
-
----
-
-# 📁 Struktur Fail
-
-
-
----
-
-# 🖥️ Cara Buka Website
-
-
-1. Buka folder projek
-
-2. Klik dua kali:
-
-
-
-3. Website akan dibuka menggunakan browser.
-
-
-Browser disyorkan:
-
-- Google Chrome
-- Microsoft Edge
-
-
-
----
-
-# 🖼️ Tukar Logo
-
-
-Fail:
-
-
-
-Untuk tukar logo:
-
-1. Padam logo lama
-
-2. Letak logo baru
-
-3. Pastikan nama fail kekal:
+Website ini dibangunkan dengan konsep premium minimal,
+mudah digunakan dan fokus kepada pengalaman pelanggan.
 
 
 
 
----
-
-# 🌶️ Tukar Gambar Produk
-
-
-Fail:
 
 
 
-Digunakan untuk:
-
-- Hero section
-- Product showcase
-
-
-Untuk tukar:
-
-1. Gantikan gambar lama
-
-2. Gunakan nama sama:
+## Struktur Website
 
 
 
 
----
-
-# 💰 Tukar Harga Produk
 
 
-Buka:
 
+## Halaman Website
+
+
+### Home
+
+Paparan utama jenama:
+
+- Pengenalan Sambal Pak Teh
+- Produk utama
+- Keistimewaan produk
+
+
+
+### Produk
+
+Memaparkan:
+
+- Sambal Petai Pak Teh 200ml
+- Status ready stock
+- Maklumat produk
+- Platform pembelian
+
+
+
+### Cara Beli
+
+Penerangan:
+
+- TikTok Shop
+- Shopee
+- Kaedah pembayaran:
+  - FPX
+  - QR Pay
+  - Bank Transfer
+
+
+
+### Kualiti
+
+Maklumat:
+
+- Resepi tradisi
+- Bahan pilihan
+- Kebersihan proses
+- Limited production
+
+
+
+### Contact
+
+Maklumat:
+
+- Pertanyaan pelanggan
+- Waktu operasi
+- Platform rasmi pembelian
+
+
+
+
+
+
+
+## Gambar Website
+
+
+Pastikan fail gambar berada dalam folder utama:
+
+
+
+
+
+
+## Cara Jalankan Website
+
+
+1. Simpan semua fail dalam satu folder.
+
+2. Pastikan nama fail tidak berubah.
+
+3. Klik:
+
+Website akan dibuka melalui browser.
+
+
+
+
+
+## Kemaskini Link Jualan
+
+
+Untuk masukkan link TikTok Shop dan Shopee:
 
 
 Cari:
 
 
 
-Tukar kepada harga sebenar produk.
-
+Tukar kepada link kedai rasmi.
 
 
 Contoh:
 
 
 
+dan
 
----
 
-# 📱 Tukar WhatsApp
 
 
-Dalam:
 
 
 
-Cari:
+## Teknologi Digunakan
 
 
+- HTML5
+- CSS3
+- Responsive Design
 
-Tukar kepada nombor WhatsApp sebenar.
 
 
 
-Format:
 
+## Status Projek
 
 
----
+Version:
 
-# 🕘 Waktu Operasi
-
-
-Sekarang:
-
-
-Boleh ubah dalam:
-
-
-
----
-
-# 🎨 Ubah Design Website
-
-
-Fail utama:
-
-
-## style.css
-
-
-Digunakan untuk:
-
-- Warna
-- Font
-- Layout
-- Animasi
-- Responsive mobile
-
-
-
-Tema warna:
-
-Maroon Premium:
-
-
-
----
-
-# 🎨 Ubah Design Website
-
-
-Fail utama:
-
-
-## style.css
-
-
-Digunakan untuk:
-
-- Warna
-- Font
-- Layout
-- Animasi
-- Responsive mobile
-
-
-
-Tema warna:
-
-Maroon Premium:
-
-
-Gold:
-
-
-Cream:
-
-
-
----
-
-# ⚙️ Fungsi Website
-
-
-Fail:
-
-
-
-Digunakan untuk:
-
-- Scroll animation
-- Header effect
-- Website interaction
-
-
-
----
-
-# 🚀 Publish Website
-
-
-Website boleh diterbitkan menggunakan:
-
-
-## GitHub Pages
-
-Langkah:
-
-1. Buat repository baru
-
-2. Upload semua fail
-
-3. Aktifkan Pages
-
-
-Fail diperlukan:
-
-
-
----
-
-# ✅ Checklist Sebelum Launch
-
-
-## Website
-
-☑ Semua gambar keluar
-
-☑ Tiada link rosak
-
-☑ Paparan telefon cantik
-
-☑ Button WhatsApp berfungsi
-
-
-## Produk
-
-☑ Nama produk betul
-
-☑ Harga betul
-
-☑ Gambar produk terkini
-
-☑ Maklumat stok betul
-
-
-## Branding
-
-☑ Logo betul
-
-☑ Warna brand konsisten
-
-☑ Ayat pemasaran kemas
-
-
-
----
-
-# 📌 Maklumat Brand
-
-
-Nama:
-
-Sambal Petai Pak Teh
-
-
-Konsep:
-
-Premium Homemade Sambal
+1.0
 
 
 Status:
 
-Limited Stock Product
+Completed Basic Website
 
 
 
----
 
-© Sambal Petai Pak Teh✅ index.html
-✅ style.css
-✅ script.js
-✅ README.md
-✅ logo.png
-✅ sambal-pak-teh.png
+
+
+© 2026 Sambal Petai Pak Teh

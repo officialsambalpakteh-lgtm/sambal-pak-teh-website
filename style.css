@@ -1,11 +1,3 @@
-/* ===============================
-   SAMBAL PETAI PAK TEH
-   PREMIUM WEBSITE STYLE
-================================ */
-
-
-/* RESET */
-
 *{
     margin:0;
     padding:0;
@@ -15,45 +7,20 @@
 
 body{
 
-    font-family:
-    "Segoe UI",
-    Arial,
-    sans-serif;
+    font-family: "Segoe UI", Arial, sans-serif;
 
-    background:#faf5ed;
+    background:#f8f3ea;
 
-    color:#2b2118;
-
-    line-height:1.6;
+    color:#2d2118;
 
 }
-
-
-img{
-
-    max-width:100%;
-
-    display:block;
-
-}
-
-
-
-a{
-
-    text-decoration:none;
-
-    color:inherit;
-
-}
-
 
 
 .container{
 
     width:90%;
 
-    max-width:1150px;
+    max-width:1100px;
 
     margin:auto;
 
@@ -62,46 +29,35 @@ a{
 
 
 
+/* HEADER */
 
+header{
 
-/* ===============================
-   HEADER
-================================ */
+    background:#fff;
+
+    border-bottom:1px solid #eee;
+
+}
+
 
 
 .header{
 
-    position:sticky;
-
-    top:0;
-
-    background:#faf5ed;
-
-    z-index:100;
-
-    border-bottom:1px solid rgba(0,0,0,.05);
-
-}
-
-
-
-.nav{
-
-    height:85px;
+    height:75px;
 
     display:flex;
 
-    justify-content:space-between;
-
     align-items:center;
+
+    justify-content:space-between;
 
 }
 
 
 
-.logo img{
+.logo{
 
-    width:75px;
+    width:65px;
 
 }
 
@@ -111,7 +67,7 @@ nav{
 
     display:flex;
 
-    gap:25px;
+    gap:28px;
 
 }
 
@@ -119,11 +75,13 @@ nav{
 
 nav a{
 
+    text-decoration:none;
+
+    color:#5a0000;
+
     font-size:14px;
 
     font-weight:600;
-
-    color:#5a0000;
 
 }
 
@@ -131,7 +89,7 @@ nav a{
 
 nav a:hover{
 
-    color:#c89b3c;
+    color:#c69b3c;
 
 }
 
@@ -139,96 +97,23 @@ nav a:hover{
 
 
 
-
-
-/* ===============================
-   BUTTON
-================================ */
-
-
-.buttons{
-
-    display:flex;
-
-    gap:15px;
-
-}
-
-
-
-.buttons a,
-.shop-buttons a{
-
-    padding:12px 28px;
-
-    border-radius:30px;
-
-    background:#5a0000;
-
-    color:white;
-
-    font-weight:600;
-
-}
-
-
-
-.buttons a:last-child{
-
-    background:white;
-
-    color:#5a0000;
-
-    border:1px solid #5a0000;
-
-}
-
-
-
-.shop-buttons{
-
-    display:flex;
-
-    gap:15px;
-
-}
-
-
-
-.shop-buttons a:last-child{
-
-    background:#c89b3c;
-
-}
-
-
-
-
-
-
-
-/* ===============================
-   HOME HERO
-================================ */
-
+/* HERO */
 
 .hero{
 
-    padding:90px 0;
+    padding:80px 0;
 
 }
 
 
 
-.hero-content{
+.hero-wrap{
 
     display:flex;
 
     align-items:center;
 
     justify-content:space-between;
-
-    gap:60px;
 
 }
 
@@ -242,152 +127,156 @@ nav a:hover{
 
 
 
-.label{
+.small-title{
 
-    color:#c89b3c;
+    font-size:12px;
 
     letter-spacing:3px;
 
-    font-size:13px;
+    color:#b88a32;
 
-    font-weight:bold;
+    margin-bottom:20px;
 
 }
 
 
 
-.hero-text h1{
+.hero h1{
 
-    font-size:60px;
+    font-size:46px;
 
-    line-height:1.1;
+    line-height:1.15;
 
     color:#5a0000;
 
-    margin:20px 0;
+}
+
+
+
+.hero h1 span{
+
+    color:#b88a32;
 
 }
 
 
 
-.hero-text h1 span{
+.hero-text p{
 
-    color:#c89b3c;
+    margin-top:20px;
+
+    color:#666;
+
+    max-width:430px;
+
+    line-height:1.8;
 
 }
 
+
+
+
+
+.button-group{
+
+    margin-top:30px;
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+
+
+.button-group a{
+
+    text-decoration:none;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    background:#5a0000;
+
+    color:white;
+
+    font-size:14px;
+
+}
+
+
+
+.button-group a:last-child{
+
+    background:white;
+
+    color:#5a0000;
+
+    border:1px solid #5a0000;
+
+}
+
+
+
+
+
+/* PRODUCT IMAGE */
+
+
+.hero-image{
+
+    width:40%;
+
+    text-align:center;
+
+}
+
+
+
+.hero-image img{
+
+    width:220px;
+
+    margin:auto;
+
+}
+
+
+
+
+
+
+
+/* INTRO */
 
 
 .intro{
 
-    font-size:18px;
-
-    color:#666;
-
-    max-width:480px;
-
-    margin-bottom:35px;
-
-}
-
-
-
-.hero-product{
-
-    width:45%;
-
-    display:flex;
-
-    justify-content:center;
-
-}
-
-
-
-.product-frame{
-
     background:white;
 
-    padding:35px;
-
-    border-radius:35px;
-
-    box-shadow:
-    0 20px 40px rgba(0,0,0,.08);
-
-}
-
-
-
-.product-frame img{
-
-    width:250px;
-
-}
-
-
-
-
-
-
-
-/* ===============================
-   SECTION TITLE
-================================ */
-
-
-.section-title{
+    padding:70px 0;
 
     text-align:center;
 
-    margin-bottom:50px;
-
 }
 
 
 
-.section-title p{
-
-    color:#c89b3c;
-
-    letter-spacing:3px;
-
-    font-size:13px;
-
-}
-
-
-
-.section-title h2{
+.intro h2{
 
     color:#5a0000;
 
-    font-size:38px;
+    font-size:32px;
+
+    margin-bottom:40px;
 
 }
 
 
 
 
-
-
-
-/* ===============================
-   VALUE
-================================ */
-
-
-.value{
-
-    background:white;
-
-    padding:90px 0;
-
-}
-
-
-
-.value-grid{
+.cards{
 
     display:grid;
 
@@ -399,31 +288,87 @@ nav a:hover{
 
 
 
-.value-card{
+.cards div{
+
+    padding:30px;
 
     background:#faf5ed;
 
-    padding:35px;
+    border-radius:18px;
+
+}
+
+
+
+.cards h3{
+
+    color:#5a0000;
+
+    margin-bottom:10px;
+
+    font-size:18px;
+
+}
+
+
+
+.cards p{
+
+    color:#666;
+
+    font-size:14px;
+
+}
+
+
+
+
+
+
+
+
+/* PRODUCT PREVIEW */
+
+
+.product-preview{
+
+    padding:70px 0;
+
+}
+
+
+
+.preview-box{
+
+    background:white;
+
+    padding:35px 50px;
 
     border-radius:25px;
 
-    text-align:center;
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
 
 }
 
 
 
-.value-card h3{
-
-    font-size:35px;
-
-}
-
-
-
-.value-card h4{
+.preview-box h2{
 
     color:#5a0000;
+
+    font-size:28px;
+
+}
+
+
+
+.preview-box p{
+
+    color:#777;
 
     margin:10px 0;
 
@@ -431,44 +376,11 @@ nav a:hover{
 
 
 
+.preview-box a{
 
+    color:#b88a32;
 
-
-
-/* ===============================
-   PRODUCT PREVIEW
-================================ */
-
-
-.product-preview{
-
-    padding:90px 0;
-
-}
-
-
-
-.preview{
-
-    background:white;
-
-    border-radius:30px;
-
-    padding:45px;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-}
-
-
-
-.preview p{
-
-    color:#c89b3c;
+    text-decoration:none;
 
     font-weight:bold;
 
@@ -476,253 +388,11 @@ nav a:hover{
 
 
 
-.preview h2{
+.preview-box img{
 
-    color:#5a0000;
-
-}
-
-
-
-.preview img{
-
-    width:170px;
+    width:130px;
 
 }
-
-
-
-
-
-
-
-/* ===============================
-   PRODUCT PAGE
-================================ */
-
-
-.page-title{
-
-    padding:70px 0 40px;
-
-    text-align:center;
-
-}
-
-
-
-.page-title p{
-
-    color:#c89b3c;
-
-    letter-spacing:3px;
-
-}
-
-
-
-.page-title h1{
-
-    color:#5a0000;
-
-    font-size:45px;
-
-}
-
-
-
-.page-title span{
-
-    color:#777;
-
-}
-
-
-
-
-
-
-.main-product{
-
-    padding:50px 0 90px;
-
-}
-
-
-
-.product-layout{
-
-    display:flex;
-
-    gap:70px;
-
-    align-items:center;
-
-}
-
-
-
-.product-image{
-
-    width:45%;
-
-}
-
-
-
-.image-box{
-
-    background:white;
-
-    padding:45px;
-
-    border-radius:35px;
-
-}
-
-
-
-.image-box img{
-
-    width:280px;
-
-    margin:auto;
-
-}
-
-
-
-
-
-
-.product-details{
-
-    width:55%;
-
-}
-
-
-
-.product-details h2{
-
-    color:#5a0000;
-
-    font-size:35px;
-
-    margin-bottom:20px;
-
-}
-
-
-
-.product-details h3{
-
-    color:#5a0000;
-
-    margin-top:25px;
-
-}
-
-
-
-.product-details ul{
-
-    list-style:none;
-
-    margin-top:15px;
-
-}
-
-
-
-.product-details li{
-
-    margin:8px 0;
-
-}
-
-
-
-.product-status{
-
-    background:white;
-
-    padding:20px;
-
-    border-radius:20px;
-
-    margin:25px 0;
-
-}
-
-
-
-.product-status span{
-
-    font-size:12px;
-
-    color:#999;
-
-}
-
-
-
-.product-status h3{
-
-    color:#c89b3c;
-
-    margin:0;
-
-}
-
-
-
-
-
-
-
-.payment-box{
-
-    background:white;
-
-    padding:25px;
-
-    border-radius:20px;
-
-    margin-top:30px;
-
-}
-
-
-
-
-
-
-
-/* COMING SOON */
-
-
-.coming-soon{
-
-    text-align:center;
-
-    padding:60px 0;
-
-    background:white;
-
-}
-
-
-
-.coming-soon p{
-
-    color:#c89b3c;
-
-    letter-spacing:3px;
-
-}
-
-
 
 
 
@@ -735,13 +405,13 @@ nav a:hover{
 
 footer{
 
-    background:#210d08;
+    background:#260d08;
 
     color:white;
 
     text-align:center;
 
-    padding:40px;
+    padding:35px;
 
 }
 
@@ -749,9 +419,9 @@ footer{
 
 footer img{
 
-    width:70px;
+    width:55px;
 
-    margin:auto;
+    margin-bottom:10px;
 
 }
 
@@ -759,7 +429,7 @@ footer img{
 
 footer p{
 
-    margin-top:8px;
+    font-size:14px;
 
     color:#e8d8b8;
 
@@ -771,15 +441,13 @@ footer p{
 
 
 
-/* ===============================
-   MOBILE
-================================ */
+/* MOBILE */
 
 
 @media(max-width:800px){
 
 
-.nav{
+.header{
 
     flex-direction:column;
 
@@ -793,6 +461,8 @@ footer p{
 
 nav{
 
+    margin-top:15px;
+
     flex-wrap:wrap;
 
     justify-content:center;
@@ -801,22 +471,9 @@ nav{
 
 
 
-.hero-content,
-.product-layout,
-.preview{
+.hero-wrap{
 
     flex-direction:column;
-
-}
-
-
-
-.hero-text,
-.hero-product,
-.product-image,
-.product-details{
-
-    width:100%;
 
     text-align:center;
 
@@ -824,23 +481,34 @@ nav{
 
 
 
-.hero-text h1{
+.hero-text,
+.hero-image{
 
-    font-size:45px;
-
-}
-
-
-
-.product-frame img{
-
-    width:210px;
+    width:100%;
 
 }
 
 
 
-.value-grid{
+.hero h1{
+
+    font-size:38px;
+
+}
+
+
+
+.hero-image img{
+
+    margin-top:40px;
+
+    width:180px;
+
+}
+
+
+
+.cards{
 
     grid-template-columns:1fr;
 
@@ -848,18 +516,19 @@ nav{
 
 
 
-.shop-buttons,
-.buttons{
+.preview-box{
 
-    justify-content:center;
+    flex-direction:column;
+
+    text-align:center;
 
 }
 
 
 
-.image-box img{
+.preview-box img{
 
-    width:220px;
+    margin-top:25px;
 
 }
 

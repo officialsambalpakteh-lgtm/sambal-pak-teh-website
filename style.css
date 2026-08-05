@@ -579,5 +579,624 @@ transform:translateY(0);
 
 
 }
+/* =========================
+   SECTION TITLE
+========================= */
+
+
+.title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+
+.title span{
+
+
+    color:#C89B3C;
+
+
+    letter-spacing:3px;
+
+
+    font-size:13px;
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+.title h2{
+
+
+    font-size:45px;
+
+
+    color:#5A0000;
+
+
+    margin-top:15px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   STORY SECTION
+========================= */
+
+
+.story{
+
+
+    background:white;
+
+
+    padding:100px 0;
+
+
+}
+
+
+
+
+.story-box{
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    justify-content:space-between;
+
+
+    gap:60px;
+
+
+}
+
+
+
+
+
+.story-text{
+
+
+    width:55%;
+
+
+}
+
+
+
+.story-text p{
+
+
+    font-size:18px;
+
+
+    color:#555;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+
+
+.highlights{
+
+
+    width:40%;
+
+
+    display:grid;
+
+
+    grid-template-columns:repeat(3,1fr);
+
+
+    gap:15px;
+
+
+}
+
+
+
+.highlights div{
+
+
+    background:#faf5ed;
+
+
+    padding:25px 15px;
+
+
+    text-align:center;
+
+
+    border-radius:20px;
+
+
+    border-bottom:3px solid #C89B3C;
+
+
+}
+
+
+
+.highlights h3{
+
+
+    color:#5A0000;
+
+
+    font-size:25px;
+
+
+}
+
+
+
+.highlights p{
+
+
+    font-size:14px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   PRODUCT SECTION
+========================= */
+
+
+.product{
+
+
+    padding:100px 0;
+
+
+}
+
+
+
+
+
+.product-card{
+
+
+    background:white;
+
+
+    border-radius:30px;
+
+
+    padding:50px;
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    gap:60px;
+
+
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+
+
+}
+
+
+
+
+
+.product-image{
+
+
+    width:45%;
+
+
+}
+
+
+
+
+.product-image img{
+
+
+    width:320px;
+
+
+    margin:auto;
+
+
+}
+
+
+
+
+
+
+
+.product-info{
+
+
+    width:55%;
+
+
+}
+
+
+
+
+
+.product-info h3{
+
+
+    font-size:35px;
+
+
+    color:#5A0000;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+
+.product-info p{
+
+
+    color:#666;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+.product-info ul{
+
+
+    list-style:none;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+.product-info li{
+
+
+    margin:10px 0;
+
+
+    color:#444;
+
+
+}
+
+
+
+
+
+.price{
+
+
+    font-size:35px;
+
+
+    color:#C89B3C;
+
+
+    font-weight:bold;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   QUALITY
+========================= */
+
+
+.quality{
+
+
+    background:white;
+
+
+    padding:100px 0;
+
+
+}
+
+
+
+
+.quality-grid{
+
+
+    display:grid;
+
+
+    grid-template-columns:repeat(4,1fr);
+
+
+    gap:25px;
+
+
+}
+
+
+
+
+.quality-card{
+
+
+    background:#faf5ed;
+
+
+    padding:35px 25px;
+
+
+    text-align:center;
+
+
+    border-radius:25px;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+.quality-card:hover{
+
+
+    transform:translateY(-10px);
+
+
+    box-shadow:0 15px 30px rgba(0,0,0,.1);
+
+
+}
+
+
+
+
+.icon{
+
+
+    font-size:40px;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+.quality-card h3{
+
+
+    color:#5A0000;
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   LIMITED SECTION
+========================= */
+
+
+.limited{
+
+
+    padding:80px 0;
+
+
+}
+
+
+
+
+
+.limited-box{
+
+
+    background:#5A0000;
+
+
+    color:white;
+
+
+    padding:60px;
+
+
+    border-radius:35px;
+
+
+    text-align:center;
+
+
+}
+
+
+
+.limited-box h2{
+
+
+    font-size:40px;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+.limited-box p{
+
+
+    max-width:800px;
+
+
+    margin:auto;
+
+
+    color:#f5e5c8;
+
+
+    font-size:18px;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   TESTIMONIAL
+========================= */
+
+
+.testimonial{
+
+
+    background:white;
+
+
+    padding:100px 0;
+
+
+}
+
+
+
+
+.review-grid{
+
+
+    display:grid;
+
+
+    grid-template-columns:repeat(3,1fr);
+
+
+    gap:25px;
+
+
+}
+
+
+
+.review-card{
+
+
+    background:#faf5ed;
+
+
+    padding:35px;
+
+
+    border-radius:25px;
+
+
+    text-align:center;
+
+
+}
+
+
+
+.review-card p{
+
+
+    font-style:italic;
+
+
+    color:#555;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+.review-card h4{
+
+
+    color:#5A0000;
+
+
+}
 
 

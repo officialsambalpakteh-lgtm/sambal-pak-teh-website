@@ -5,18 +5,18 @@
 
 
 
-// HEADER SCROLL EFFECT
+// HEADER EFFECT
 
 const header = document.querySelector(".header");
 
 
-window.addEventListener("scroll",()=>{
+window.addEventListener("scroll", function(){
 
 
-    if(window.scrollY > 50){
+    if(window.scrollY > 40){
 
         header.style.boxShadow =
-        "0 10px 30px rgba(0,0,0,0.12)";
+        "0 10px 30px rgba(0,0,0,0.15)";
 
     }else{
 
@@ -37,25 +37,24 @@ window.addEventListener("scroll",()=>{
 // SCROLL ANIMATION
 
 
-const sections =
-document.querySelectorAll(
-".story-box, .product-card, .quality-card, .limited-box, .review-card, .step"
+const animationItems = document.querySelectorAll(
+".story-box, .product-card, .quality-card, .buy-grid div"
 );
 
 
 
-const observer =
-new IntersectionObserver(
+const observer = new IntersectionObserver(
 (entries)=>{
 
 
-entries.forEach(entry=>{
+entries.forEach(item=>{
 
 
-if(entry.isIntersecting){
+if(item.isIntersecting){
 
+item.target.style.opacity="1";
 
-entry.target.classList.add("show");
+item.target.style.transform="translateY(0)";
 
 
 }
@@ -68,17 +67,24 @@ entry.target.classList.add("show");
 {
 threshold:0.15
 }
+
 );
 
 
 
-sections.forEach(section=>{
 
 
-section.classList.add("hidden");
+animationItems.forEach(item=>{
 
 
-observer.observe(section);
+item.style.opacity="0";
+
+item.style.transform="translateY(40px)";
+
+item.style.transition="all .8s ease";
+
+
+observer.observe(item);
 
 
 });
@@ -90,21 +96,21 @@ observer.observe(section);
 
 
 
-// FOOTER YEAR AUTOMATIC
+// FOOTER YEAR AUTO UPDATE
 
 
-const year =
-new Date().getFullYear();
+const year = new Date().getFullYear();
 
 
-const footer =
+const footerText =
 document.querySelector("footer p:last-child");
 
 
-if(footer){
 
-footer.innerHTML =
-"© " + year + " All Rights Reserved";
+if(footerText){
+
+footerText.innerHTML =
+"© " + year + " Sambal Petai Pak Teh";
 
 }
 
@@ -114,11 +120,6 @@ footer.innerHTML =
 
 
 
-
-// MOBILE MENU PREPARATION
-
-
 console.log(
-"Sambal Petai Pak Teh Premium Website Loaded"
+"Sambal Petai Pak Teh Premium Website Ready"
 );
-

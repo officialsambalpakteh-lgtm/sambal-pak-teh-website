@@ -247,3 +247,328 @@ nav a:hover{
 
 }
 
+/* =====================
+   SECTION UMUM
+===================== */
+
+
+section{
+
+    padding:90px 0;
+
+}
+
+
+section h2{
+
+    text-align:center;
+
+    font-size:38px;
+
+    color:#5c0000;
+
+    margin-bottom:40px;
+
+}
+
+
+
+
+
+
+/* =====================
+   ABOUT
+===================== */
+
+
+.about{
+
+    background:white;
+
+}
+
+
+.about p{
+
+    max-width:800px;
+
+    margin:15px auto;
+
+    text-align:center;
+
+    font-size:17px;
+
+    color:#555;
+
+}
+
+
+
+
+
+
+
+/* =====================
+   PRODUCT
+===================== */
+
+
+.product{
+
+    background:#fff1dc;
+
+}
+
+
+
+.product-box{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:40px;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+
+
+.product-box img{
+
+    width:300px;
+
+}
+
+
+
+.product-box h3{
+
+    font-size:30px;
+
+    color:#5c0000;
+
+}
+
+
+
+.product-box p{
+
+    margin:20px 0;
+
+    color:#555;
+
+}
+
+
+
+.product-box h4{
+
+    display:inline-block;
+
+    background:#8b0000;
+
+    color:white;
+
+    padding:8px 20px;
+
+    border-radius:20px;
+
+}
+
+
+
+
+
+
+
+/* =====================
+   FEATURE
+===================== */
+
+
+.feature{
+
+    background:white;
+
+}
+
+
+
+.feature-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.feature-grid div{
+
+    background:#fffaf2;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+}
+
+
+
+.feature-grid h3{
+
+    color:#8b0000;
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+
+
+/* =====================
+   ORDER
+===================== */
+
+
+.order{
+
+    background:#fff1dc;
+
+}
+
+
+
+.order p{
+
+    text-align:center;
+
+    margin:10px;
+
+    font-size:18px;
+
+}
+
+
+
+.whatsapp{
+
+    display:block;
+
+    width:max-content;
+
+    margin:30px auto 0;
+
+    background:#25D366;
+
+}
+
+
+
+
+
+
+
+/* =====================
+   OPERATION
+===================== */
+
+
+.operation{
+
+    background:white;
+
+    text-align:center;
+
+}
+
+
+
+.operation p{
+
+    font-size:20px;
+
+    margin:10px;
+
+}
+
+
+
+
+
+
+
+/* =====================
+   CONTACT
+===================== */
+
+
+.contact{
+
+    background:#fff1dc;
+
+    text-align:center;
+
+}
+
+
+
+.contact p{
+
+    font-size:18px;
+
+    margin:10px;
+
+}
+
+
+
+
+
+
+
+/* =====================
+   FOOTER
+===================== */
+
+
+footer{
+
+    background:#2b1b12;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+
+
+footer img{
+
+    width:90px;
+
+    margin:auto auto 15px;
+
+}
+

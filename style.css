@@ -1,94 +1,326 @@
-/*==============================
+/*==========================================
+SAMBAL PAK TEH V2
+==========================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#fff8f3;
+
+    color:#222;
+
+    overflow-x:hidden;
+
+}
+
+
+/*==========================================
 TOP BAR
-==============================*/
+==========================================*/
 
 .top-bar{
 
-background:#b71c1c;
+    background:#B71C1C;
 
-color:#fff;
+    color:#fff;
 
-font-size:14px;
+    padding:10px 0;
 
-padding:10px 0;
+    font-size:14px;
 
-font-weight:500;
+    font-weight:600;
+
+}
+
+.top-bar-content{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
 
 }
 
 
-/*==============================
+
+/*==========================================
 NAVBAR
-==============================*/
+==========================================*/
 
-.custom-navbar{
+.navbar{
 
-background:#111;
+    background:#111;
 
-padding:18px 0;
+    padding:18px 0;
 
-box-shadow:0 5px 20px rgba(0,0,0,.15);
-
-}
-
-.navbar-logo{
-
-height:80px;
-
-transition:.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
 
 }
 
-.navbar-brand h4{
+.logo{
 
-font-family:'Poppins',sans-serif;
+    width:85px;
 
-font-size:26px;
+    transition:.3s;
 
 }
 
-.navbar-brand small{
+.logo:hover{
 
-color:#d4af37;
+    transform:scale(1.08);
 
-letter-spacing:1px;
+}
+
+.brand-text{
+
+    margin-left:15px;
+
+}
+
+.brand-text h2{
+
+    color:#fff;
+
+    font-size:28px;
+
+    margin:0;
+
+}
+
+.brand-text small{
+
+    color:#D4AF37;
+
+    letter-spacing:1px;
 
 }
 
 .nav-link{
 
-font-weight:600;
+    color:#fff !important;
 
-margin-left:18px;
+    margin-left:18px;
 
-color:#fff !important;
-
-transition:.3s;
+    font-weight:600;
 
 }
 
 .nav-link:hover{
 
-color:#d4af37 !important;
+    color:#D4AF37 !important;
 
 }
 
-.btn-warning{
+.btn-shop{
 
-background:#d4af37;
+    margin-left:25px;
 
-border:none;
+    background:#D4AF37;
 
-color:#111;
+    color:#111;
 
-border-radius:50px;
+    font-weight:700;
 
-padding:12px 28px;
+    padding:12px 28px;
+
+    border-radius:50px;
 
 }
 
-.btn-warning:hover{
+.btn-shop:hover{
 
-background:#c89b1d;
+    background:#b71c1c;
+
+    color:#fff;
+
+}
+
+
+
+/*==========================================
+HERO
+==========================================*/
+
+.hero{
+
+    padding:90px 0;
+
+}
+
+.hero-title{
+
+    font-size:65px;
+
+    font-weight:800;
+
+    line-height:1.1;
+
+}
+
+.hero-title span{
+
+    color:#B71C1C;
+
+}
+
+.hero-description{
+
+    margin-top:25px;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+.hero-badge{
+
+    margin-bottom:20px;
+
+}
+
+.price-box{
+
+    margin-top:35px;
+
+    font-size:48px;
+
+    font-weight:800;
+
+    color:#B71C1C;
+
+}
+
+.price-box small{
+
+    font-size:20px;
+
+    color:#444;
+
+}
+
+.launch-status{
+
+    margin-top:25px;
+
+    background:#fff;
+
+    border-left:6px solid #D4AF37;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.05);
+
+}
+
+.hero-button{
+
+    margin-top:35px;
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.hero-image{
+
+    width:460px;
+
+    max-width:100%;
+
+    transition:.4s;
+
+}
+
+.hero-image:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/*==========================================
+READY STOCK
+==========================================*/
+
+.stock-section{
+
+    padding:80px 0;
+
+}
+
+.stock-card{
+
+    background:#fff;
+
+    padding:50px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+.stock-card h1{
+
+    font-size:80px;
+
+    color:#B71C1C;
+
+    font-weight:800;
+
+}
+
+.progress{
+
+    height:18px;
+
+    border-radius:30px;
+
+    overflow:hidden;
+
+}
+
+.progress-bar{
+
+    background:#B71C1C;
+
+}
+
+.stock-status{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:#dff5e2;
+
+    color:#2e7d32;
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    font-weight:700;
 
 }

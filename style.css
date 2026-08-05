@@ -1198,5 +1198,567 @@ transform:translateY(0);
 
 
 }
+/* =========================
+   ORDER SECTION
+========================= */
 
+
+.order{
+
+    padding:100px 0;
+
+    background:#faf5ed;
+
+}
+
+
+
+
+
+.order-step{
+
+
+    display:grid;
+
+
+    grid-template-columns:repeat(4,1fr);
+
+
+    gap:25px;
+
+
+    margin-bottom:50px;
+
+
+}
+
+
+
+
+.step{
+
+
+    background:white;
+
+
+    padding:35px 20px;
+
+
+    text-align:center;
+
+
+    border-radius:25px;
+
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+
+}
+
+
+
+.step span{
+
+
+    display:inline-flex;
+
+
+    width:55px;
+
+
+    height:55px;
+
+
+    align-items:center;
+
+
+    justify-content:center;
+
+
+    background:#5A0000;
+
+
+    color:white;
+
+
+    border-radius:50%;
+
+
+    font-weight:bold;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+.step h3{
+
+
+    color:#5A0000;
+
+
+    margin-bottom:10px;
+
+
+}
+
+
+
+.step p{
+
+
+    color:#666;
+
+
+}
+
+
+
+
+
+.whatsapp-button{
+
+
+    display:block;
+
+
+    width:max-content;
+
+
+    margin:auto;
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+   OPERATION
+========================= */
+
+
+.operation{
+
+
+    padding:80px 0;
+
+
+    background:white;
+
+
+}
+
+
+
+
+.operation-box{
+
+
+    text-align:center;
+
+
+    background:#5A0000;
+
+
+    color:white;
+
+
+    padding:50px;
+
+
+    border-radius:30px;
+
+
+}
+
+
+
+.operation-box h2{
+
+
+    font-size:35px;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+.operation-box p{
+
+
+    font-size:20px;
+
+
+    color:#f5e5c8;
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   CONTACT
+========================= */
+
+
+.contact{
+
+
+    padding:100px 0;
+
+
+}
+
+
+
+
+.contact-box{
+
+
+    text-align:center;
+
+
+}
+
+
+
+.contact-box img{
+
+
+    width:100px;
+
+
+    margin:auto auto 20px;
+
+
+}
+
+
+
+.contact-box h2{
+
+
+    color:#5A0000;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.contact-box p{
+
+
+    color:#666;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+.contact-box a{
+
+
+    display:inline-block;
+
+
+    background:#C89B3C;
+
+
+    color:white;
+
+
+    padding:14px 35px;
+
+
+    border-radius:40px;
+
+
+    font-weight:bold;
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+footer{
+
+
+    background:#210d08;
+
+
+    color:white;
+
+
+    padding:40px 0;
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+.footer-content img{
+
+
+    width:90px;
+
+
+    margin:auto auto 15px;
+
+
+}
+
+
+
+
+.footer-content p{
+
+
+    margin:5px;
+
+
+    color:#ead9bb;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+
+@media(max-width:900px){
+
+
+
+.nav-container{
+
+
+    flex-direction:column;
+
+
+    height:auto;
+
+
+    padding:20px 0;
+
+
+}
+
+
+
+nav{
+
+
+    flex-wrap:wrap;
+
+
+    justify-content:center;
+
+
+    gap:15px;
+
+
+}
+
+
+
+.hero-container,
+
+
+.story-box,
+
+
+.product-card{
+
+
+    flex-direction:column;
+
+
+}
+
+
+
+.hero-text,
+
+
+.hero-image,
+
+
+.story-text,
+
+
+.highlights,
+
+
+.product-image,
+
+
+.product-info{
+
+
+    width:100%;
+
+
+}
+
+
+
+.hero-text h1{
+
+
+    font-size:50px;
+
+
+}
+
+
+
+
+.hero-image img{
+
+
+    width:280px;
+
+
+}
+
+
+
+.story-box{
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+.highlights{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+.product-card{
+
+
+    padding:30px;
+
+
+}
+
+
+
+.product-image img{
+
+
+    width:250px;
+
+
+}
+
+
+
+
+.quality-grid{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+.order-step{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+.review-grid{
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+
+.title h2{
+
+
+    font-size:35px;
+
+
+}
+
+
+
+.badge{
+
+
+    right:30px;
+
+
+}
+
+
+
+}
 

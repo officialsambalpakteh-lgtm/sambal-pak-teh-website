@@ -1,1 +1,1182 @@
+/* =========================================================
+   SAMBAL PETAI PAK TEH
+   MAIN STYLE CSS
+========================================================= */
+
+
+/* =========================
+   RESET BASIC
+========================= */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+body {
+
+    font-family: 'Poppins', Arial, sans-serif;
+
+    background: #ffffff;
+
+    color: #222;
+
+    line-height: 1.6;
+
+}
+
+
+
+
+img {
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
+
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+
+
+ul {
+
+    list-style: none;
+
+}
+
+
+
+
+
+
+
+/* =========================
+   GLOBAL CONTAINER
+========================= */
+
+
+.container {
+
+    width: 90%;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+
+
+
+
+
+/* =========================
+   BUTTON STYLE
+========================= */
+
+
+.btn {
+
+    display: inline-block;
+
+    padding: 14px 32px;
+
+    border-radius: 30px;
+
+    font-weight: 600;
+
+    transition: .3s ease;
+
+}
+
+
+
+
+.primary-btn {
+
+    background: #b30000;
+
+    color: white;
+
+}
+
+
+
+.primary-btn:hover {
+
+    background: #7a0000;
+
+    transform: translateY(-3px);
+
+}
+
+
+
+
+
+.secondary-btn {
+
+    border: 2px solid white;
+
+    color: white;
+
+}
+
+
+
+.secondary-btn:hover {
+
+    background: white;
+
+    color: #b30000;
+
+}
+
+
+
+
+
+/* =========================
+   HEADER
+========================= */
+
+
+.header {
+
+    position: fixed;
+
+    top: 0;
+
+    width: 100%;
+
+    z-index: 999;
+
+    background: rgba(0,0,0,0.85);
+
+    backdrop-filter: blur(8px);
+
+}
+
+
+
+
+.nav-container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    height: 85px;
+
+}
+
+
+
+
+.logo img {
+
+    width: 120px;
+
+}
+
+
+
+
+
+.navbar ul {
+
+    display: flex;
+
+    gap: 35px;
+
+}
+
+
+
+.navbar ul li a {
+
+    color: white;
+
+    font-weight: 500;
+
+    transition: .3s;
+
+}
+
+
+
+.navbar ul li a:hover {
+
+    color: #ff3333;
+
+}
+
+
+
+
+
+
+.menu-toggle {
+
+    display: none;
+
+    cursor: pointer;
+
+}
+
+
+
+.menu-toggle span {
+
+    width: 30px;
+
+    height: 3px;
+
+    background: white;
+
+    display: block;
+
+    margin: 6px;
+
+}
+
+
+
+
+
+
+
+/* =========================
+   HERO SECTION
+========================= */
+
+
+.hero {
+
+    min-height: 100vh;
+
+    background:
+
+    linear-gradient(
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.65)
+    ),
+
+    url("../images/hero.jpg");
+
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    align-items: center;
+
+    padding-top: 80px;
+
+}
+
+
+
+
+.hero-content {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+
+    gap: 50px;
+
+}
+
+
+
+
+.hero-text {
+
+    color:white;
+
+}
+
+
+
+.hero-text h1 {
+
+    font-size: 60px;
+
+    line-height: 1.1;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.hero-text h2 {
+
+    font-size: 28px;
+
+    margin-bottom: 20px;
+
+    color:#ff3333;
+
+}
+
+
+
+.hero-text p {
+
+    font-size:18px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+.hero-buttons {
+
+    display:flex;
+
+    gap:20px;
+
+}
+
+
+
+.hero-image img {
+
+    max-width:420px;
+
+    margin:auto;
+
+    filter:drop-shadow(0 20px 30px rgba(0,0,0,.5));
+
+}
+
+
+
+
+
+
+
+/* =========================
+   SECTION TITLE
+========================= */
+
+
+.section-title {
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+
+
+.section-title h2 {
+
+    font-size:40px;
+
+    margin-bottom:15px;
+
+    color:#111;
+
+}
+
+
+
+.section-title p {
+
+    color:#666;
+
+}
+
+
+
+
+
+
+/* =========================
+   BRAND INTRO
+========================= */
+
+
+.brand-intro {
+
+    padding:100px 0;
+
+}
+
+
+
+.feature-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.feature-box {
+
+    background:#fff;
+
+    padding:35px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.feature-icon {
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.feature-box h3 {
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+
+/* =========================
+   LIMITED STOCK
+========================= */
+
+
+.limited-stock {
+
+    background:#111;
+
+    padding:90px 0;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+
+
+.limited-stock h2 {
+
+    color:#ff3333;
+
+    font-size:42px;
+
+}
+
+
+
+.stock-box {
+
+    margin-top:30px;
+
+    border:1px solid #555;
+
+    padding:25px;
+
+    border-radius:15px;
+
+}
+
+
+
+
+
+/* =========================
+   PRODUCT HIGHLIGHT
+========================= */
+
+
+.product-highlight {
+
+    padding:100px 0;
+
+}
+
+
+
+.product-wrapper {
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    align-items:center;
+
+}
+
+
+
+.product-image img {
+
+    max-width:400px;
+
+    margin:auto;
+
+}
+
+
+
+.product-details h2 {
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.product-details ul {
+
+    margin:25px 0;
+
+}
+
+
+
+.product-details li {
+
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+
+/* =========================
+   PROCESS
+========================= */
+
+
+.process {
+
+    padding:100px 0;
+
+    background:#f7f7f7;
+
+}
+
+
+
+.process-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+
+
+.process-item {
+
+    background:white;
+
+    padding:35px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+}
+
+
+
+.process-item span {
+
+    font-size:35px;
+
+    font-weight:bold;
+
+    color:#b30000;
+
+}
+/* =========================
+   OPERATION HOURS
+========================= */
+
+
+.operation-hours {
+
+    padding:80px 0;
+
+    background:#fff;
+
+}
+
+
+
+.hours-box {
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #111,
+        #2b0000
+    );
+
+    padding:50px;
+
+    border-radius:20px;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+
+
+.hours-content h2 {
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+    color:#ff3333;
+
+}
+
+
+
+.hours-list {
+
+    margin-top:30px;
+
+}
+
+
+
+.hours-list p {
+
+    font-size:18px;
+
+    margin-bottom:10px;
+
+}
+
+
+
+
+
+
+
+/* =========================
+   CALL TO ACTION
+========================= */
+
+
+.cta {
+
+    padding:90px 0;
+
+    background:#b30000;
+
+    color:white;
+
+    text-align:center;
+
+}
+
+
+
+.cta-content h2 {
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.cta-content p {
+
+    max-width:700px;
+
+    margin:0 auto 30px;
+
+    font-size:18px;
+
+}
+
+
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+.footer {
+
+    background:#0a0a0a;
+
+    color:white;
+
+    padding-top:70px;
+
+}
+
+
+
+.footer-container {
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:40px;
+
+}
+
+
+
+.footer-logo {
+
+    width:130px;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.footer-column h3 {
+
+    margin-bottom:20px;
+
+    color:#ff3333;
+
+}
+
+
+
+.footer-column p {
+
+    color:#ccc;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.footer-column ul li {
+
+    margin-bottom:12px;
+
+}
+
+
+
+.footer-column ul li a {
+
+    color:#ccc;
+
+    transition:.3s;
+
+}
+
+
+
+.footer-column ul li a:hover {
+
+    color:white;
+
+}
+
+
+
+
+
+.footer-bottom {
+
+    margin-top:50px;
+
+    padding:20px;
+
+    text-align:center;
+
+    border-top:1px solid #333;
+
+    color:#aaa;
+
+}
+
+
+
+
+
+/* =========================
+   HOVER EFFECTS
+========================= */
+
+
+.feature-box,
+.process-item,
+.product-image img,
+.hours-box {
+
+    transition:.4s ease;
+
+}
+
+
+
+.feature-box:hover,
+.process-item:hover {
+
+    transform:translateY(-10px);
+
+}
+
+
+
+
+
+.product-image img:hover {
+
+    transform:scale(1.05);
+
+}
+
+
+
+
+
+
+/* =========================
+   GLOBAL SPACING
+========================= */
+
+
+section {
+
+    overflow:hidden;
+
+}
+
+
+
+
+
+/* =========================
+   SCROLL EFFECT SUPPORT
+========================= */
+
+
+.fade-up {
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:.8s ease;
+
+}
+
+
+
+.fade-up.show {
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+
+
+
+
+/* =========================
+   FORM STYLE
+   (UNTUK contact.html)
+========================= */
+
+
+.form-group {
+
+    margin-bottom:20px;
+
+}
+
+
+
+.form-group input,
+.form-group textarea {
+
+    width:100%;
+
+    padding:15px;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+
+
+.form-group textarea {
+
+    min-height:150px;
+
+}
+
+
+
+.form-group input:focus,
+.form-group textarea:focus {
+
+    outline:none;
+
+    border-color:#b30000;
+
+}
+
+
+
+
+
+
+/* =========================
+   PRODUCT PAGE SUPPORT
+========================= */
+
+
+.product-card {
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.product-card img {
+
+    width:100%;
+
+}
+
+
+
+.product-card-content {
+
+    padding:25px;
+
+}
+
+
+
+.product-card h3 {
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+/* =========================
+   GALLERY SUPPORT
+========================= */
+
+
+.gallery-grid {
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.gallery-grid img {
+
+    width:100%;
+
+    height:300px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+    transition:.4s;
+
+}
+
+
+
+.gallery-grid img:hover {
+
+    transform:scale(1.05);
+
+}
+
+
+
+
+
+/* =========================
+   CONTACT PAGE SUPPORT
+========================= */
+
+
+.contact-section {
+
+    padding:120px 0 80px;
+
+}
+
+
+
+.contact-wrapper {
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:50px;
+
+}
+
+
+
+.contact-info {
+
+    background:#111;
+
+    color:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+}
+
+
+
+.contact-info h3 {
+
+    color:#ff3333;
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+
+/* =========================
+   BACKGROUND ELEMENT
+========================= */
+
+
+.red-text {
+
+    color:#b30000;
+
+}
+
+
+
+.white-text {
+
+    color:white;
+
+}
+
+
+
+.text-center {
+
+    text-align:center;
+
+}
+
+
+
+.mt-30 {
+
+    margin-top:30px;
+
+}
 

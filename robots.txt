@@ -1,0 +1,12 @@
+# Sambal Petai Pak Teh
+# Robots Configuration
+
+
+User-agent: *
+
+Allow: /
+
+
+
+Sitemap:
+https://www.sambalpetaipakteh.com/sitemap.xml

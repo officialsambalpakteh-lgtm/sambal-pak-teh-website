@@ -1,82 +1,133 @@
+<!-- CONTACT -->
+
 <section class="contact-section">
 
-    <div class="contact-container">
+    <div class="container">
 
-        <h2>Hubungi Sambal Petai Pak Teh</h2>
+        <div class="contact-wrapper">
 
-        <p>
-            Sebarang pertanyaan mengenai produk, stok atau pembelian,
-            sila isi borang di bawah.
-        </p>
+            <!-- INFO -->
 
+            <div class="contact-info">
 
-        <form onsubmit="sendWhatsApp(); return false;" class="contact-form">
+                <h3>Sambal Petai Pak Teh</h3>
 
+                <p>
+                    Sambal Homemade Premium
+                    dengan rasa tradisional asli.
+                </p>
 
-            <label>Nama Anda</label>
-            <input 
-            type="text" 
-            id="nama" 
-            placeholder="Masukkan nama anda"
-            required>
+                <br>
 
+                <h4>Cara Pertanyaan</h4>
 
-            <label>No WhatsApp Anda</label>
-            <input 
-            type="tel" 
-            id="telefon" 
-            placeholder="Contoh: 0123456789"
-            required>
+                <p>
+                    Isi borang di sebelah dengan nama,
+                    nombor WhatsApp dan pertanyaan anda.
+                </p>
 
+                <h4>Maklumat Produk</h4>
 
-            <label>Pertanyaan</label>
-            <textarea 
-            id="pertanyaan"
-            rows="5"
-            placeholder="Tulis pertanyaan anda di sini..."
-            required></textarea>
+                <p>Ready Stock Sahaja</p>
+                <p>Limited Stock Production</p>
 
+                <h4>Waktu Operasi</h4>
 
-            <button type="submit" class="btn primary-btn">
-                Hantar Pertanyaan WhatsApp
-            </button>
+                <p>Isnin - Khamis</p>
+                <p>9.00 pagi - 5.00 petang</p>
 
+            </div>
 
-        </form>
+            <!-- FORM -->
 
+            <div class="contact-form">
+
+                <h2>Pertanyaan Produk</h2>
+
+                <p>
+                    Sila masukkan maklumat anda.
+                    Pihak Sambal Petai Pak Teh akan
+                    menghubungi anda semula melalui WhatsApp.
+                </p>
+
+                <form id="whatsappForm">
+
+                    <div class="form-group">
+
+                        <input
+                            type="text"
+                            id="nama"
+                            placeholder="Nama Anda"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <input
+                            type="tel"
+                            id="telefon"
+                            placeholder="Contoh: 0123456789"
+                            required>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <textarea
+                            id="pertanyaan"
+                            rows="5"
+                            placeholder="Pertanyaan anda (contoh: stok, harga, produk)"
+                            required></textarea>
+
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn">
+
+                        Hantar Pertanyaan
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
 
     </div>
 
 </section>
 
-
-
 <script>
 
-function sendWhatsApp(){
+document.getElementById("whatsappForm").addEventListener("submit", function(e){
 
-    let nama = document.getElementById("nama").value;
-    let telefon = document.getElementById("telefon").value;
-    let pertanyaan = document.getElementById("pertanyaan").value;
+    e.preventDefault();
 
+    const nama = document.getElementById("nama").value.trim();
+    const telefon = document.getElementById("telefon").value.trim();
+    const pertanyaan = document.getElementById("pertanyaan").value.trim();
 
-    let nombor = "60137569845";
+    const nombor = "60137569845";
 
+    const mesej =
+`Assalamualaikum Sambal Petai Pak Teh,
 
-    let mesej = 
-    "Assalamualaikum Sambal Petai Pak Teh,%0A%0A" +
-    "Saya ingin bertanya mengenai produk.%0A%0A" +
-    "Nama: " + nama + "%0A" +
-    "No WhatsApp: " + telefon + "%0A" +
-    "Pertanyaan: " + pertanyaan;
+Saya ingin membuat pertanyaan.
 
+Nama : ${nama}
+No. WhatsApp : ${telefon}
 
-    let url = 
-    "https://wa.me/" + nombor + "?text=" + mesej;
+Pertanyaan :
+${pertanyaan}`;
 
+    window.open(
+        "https://wa.me/" + nombor + "?text=" + encodeURIComponent(mesej),
+        "_blank"
+    );
 
-    window.open(url, "_blank");
-
-}
+});
 
 </script>

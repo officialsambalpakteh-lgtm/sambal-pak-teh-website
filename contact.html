@@ -2,26 +2,11 @@
 
 <html lang="ms">
 
-
-<head><link rel="icon"
-href="assets/favicon.ico">
-
-
-<link rel="manifest" href="manifest.json">
-
-
-<meta name="theme-color" content="#b30000">
-
-
-<link rel="stylesheet"
-href="css/style.css">
-
+<head>
 
 <meta charset="UTF-8">
 
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 
 
 <title>
@@ -29,49 +14,29 @@ Hubungi Kami | Sambal Petai Pak Teh
 </title>
 
 
-
 <meta name="description"
-content="
-Hubungi Sambal Petai Pak Teh untuk pertanyaan produk,
-maklumat stok dan urusan berkaitan sambal homemade premium.
-">
-
+content="Hubungi Sambal Petai Pak Teh untuk pertanyaan produk, stok dan maklumat lanjut.">
 
 
 <meta name="keywords"
-content="
-Hubungi Sambal Petai Pak Teh,
-Sambal Petai Malaysia,
-Sambal Homemade Premium
-">
-
+content="Sambal Petai Pak Teh, Sambal Homemade Premium, Hubungi Kami">
 
 
 <meta name="robots"
 content="index, follow">
 
 
-
-<link rel="icon"
-href="assets/favicon.ico">
+<link rel="icon" href="assets/favicon.ico">
 
 
+<link rel="stylesheet" href="css/style.css">
 
-<link rel="stylesheet"
-href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
 
-
-<link rel="stylesheet"
-href="css/responsive.css">
-
-
-<link rel="stylesheet"
-href="css/animation.css">
-
+<link rel="stylesheet" href="css/animation.css">
 
 
 </head>
-
 
 
 
@@ -79,12 +44,7 @@ href="css/animation.css">
 
 
 
-
-
-<!-- =========================
-     HEADER
-========================= -->
-
+<!-- HEADER -->
 
 <header class="header">
 
@@ -94,19 +54,14 @@ href="css/animation.css">
 
 <div class="logo">
 
-
 <a href="index.html">
-
 
 <img src="images/logo.png"
 alt="Sambal Petai Pak Teh Logo">
 
-
 </a>
 
-
 </div>
-
 
 
 
@@ -160,7 +115,6 @@ Hubungi
 
 
 
-
 <div class="menu-toggle">
 
 <span></span>
@@ -168,7 +122,6 @@ Hubungi
 <span></span>
 
 </div>
-
 
 
 </div>
@@ -181,10 +134,7 @@ Hubungi
 
 
 
-
-<!-- =========================
-     PAGE HERO
-========================= -->
+<!-- HERO -->
 
 
 <section class="hero page-hero">
@@ -201,11 +151,11 @@ Hubungi Kami
 </h1>
 
 
-
 <p>
 
-Kami sedia membantu untuk pertanyaan
-berkaitan produk dan stok semasa.
+Sila tinggalkan maklumat anda.
+Kami akan menghubungi anda untuk
+pertanyaan berkaitan produk.
 
 </p>
 
@@ -225,10 +175,7 @@ berkaitan produk dan stok semasa.
 
 
 
-
-<!-- =========================
-     CONTACT SECTION
-========================= -->
+<!-- CONTACT -->
 
 
 <section class="contact-section">
@@ -237,15 +184,13 @@ berkaitan produk dan stok semasa.
 <div class="container">
 
 
-
 <div class="contact-wrapper">
 
 
 
 
 
-
-<!-- CONTACT INFO -->
+<!-- INFO -->
 
 
 <div class="contact-info">
@@ -266,7 +211,41 @@ dengan rasa tradisional asli.
 
 
 
+
 <br>
+
+
+
+
+<h4>
+Cara Pertanyaan
+</h4>
+
+
+<p>
+
+Isi borang di sebelah dengan nama,
+nombor WhatsApp dan pertanyaan anda.
+
+</p>
+
+
+
+
+<h4>
+Maklumat Produk
+</h4>
+
+
+<p>
+Ready Stock Sahaja
+</p>
+
+
+<p>
+Limited Stock Production
+</p>
+
 
 
 
@@ -286,32 +265,6 @@ Isnin - Khamis
 
 
 
-<br>
-
-
-
-<h4>
-Status Jualan
-</h4>
-
-
-
-<p>
-
-Ready Stock Sahaja
-
-</p>
-
-
-
-<p>
-
-Limited Stock Production
-
-</p>
-
-
-
 </div>
 
 
@@ -321,10 +274,9 @@ Limited Stock Production
 
 
 
-<!-- CONTACT FORM -->
 
+<!-- FORM -->
 
-<!-- WHATSAPP CONTACT -->
 
 <div class="contact-form">
 
@@ -337,37 +289,25 @@ Pertanyaan Produk
 
 <p>
 
-Untuk pertanyaan stok dan maklumat produk,
-sila hubungi kami melalui WhatsApp.
+Sila masukkan nombor WhatsApp anda.
+Pihak Sambal Petai Pak Teh akan
+menghubungi anda semula.
 
 </p>
 
 
 
-<a href="https://wa.me/601XXXXXXXX"
-class="btn primary-btn"
-target="_blank">
 
-
-Hubungi WhatsApp Customer
-
-
-</a>
-
-
-
-</div>
-
-
-
+<form>
 
 
 <div class="form-group">
 
 
-<input 
-type="email"
-placeholder="Email Anda"
+<input
+type="text"
+name="nama"
+placeholder="Nama Anda"
 required>
 
 
@@ -377,17 +317,32 @@ required>
 
 
 
+<div class="form-group">
+
+
+<input
+type="tel"
+name="whatsapp"
+placeholder="Nombor WhatsApp Anda"
+required>
+
+
+</div>
+
+
+
+
 
 <div class="form-group">
 
 
 <textarea
-placeholder="Tulis pertanyaan anda di sini..."
+name="pertanyaan"
+placeholder="Pertanyaan anda (contoh: stok, harga, produk)"
 required></textarea>
 
 
 </div>
-
 
 
 
@@ -429,9 +384,8 @@ Hantar Pertanyaan
 
 
 
-<!-- =========================
-     IMPORTANT INFO
-========================= -->
+
+<!-- INFO -->
 
 
 <section class="limited-stock">
@@ -441,18 +395,19 @@ Hantar Pertanyaan
 
 
 <h2>
-Maklumat Tempahan
+Terima Kasih
 </h2>
 
 
 
 <p>
 
-Sambal Petai Pak Teh menggunakan konsep
-ready stock sahaja. Ketersediaan produk
-bergantung kepada stok semasa.
+Kami menghargai pertanyaan anda.
+Pasukan Sambal Petai Pak Teh akan
+memberikan maklum balas secepat mungkin.
 
 </p>
+
 
 
 </div>
@@ -468,9 +423,7 @@ bergantung kepada stok semasa.
 
 
 
-<!-- =========================
-     FOOTER
-========================= -->
+<!-- FOOTER -->
 
 
 <footer class="footer">
@@ -485,13 +438,13 @@ bergantung kepada stok semasa.
 
 <img src="images/logo.png"
 class="footer-logo"
-alt="Sambal Petai Pak Teh Logo">
+alt="Sambal Petai Pak Teh">
 
 
 <p>
 
 Sambal Homemade Premium
-Malaysia.
+dengan rasa tradisional asli.
 
 </p>
 
@@ -609,45 +562,6 @@ Semua Hak Cipta Terpelihara.
 
 
 
-
-
-<script type="application/ld+json">
-
-{
-
-"@context":
-"https://schema.org",
-
-
-"@type":
-"Brand",
-
-
-"name":
-"Sambal Petai Pak Teh",
-
-
-"description":
-"Sambal Petai Homemade Premium dengan rasa tradisional Malaysia.",
-
-
-"url":
-"https://www.sambalpetaipakteh.com",
-
-
-"logo":
-"https://www.sambalpetaipakteh.com/images/logo.png"
-
-
-}
-
-</script>
-
-
-
-
-
 </body>
-
 
 </html>
